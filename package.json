@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-surge",
-  "version": "1.2.0",
+  "version": "1.2.1-alpha.1",
   "description": "the EmberJS addon to use surge.sh for deployments.",
   "directories": {
     "test": "tests"
@@ -25,7 +25,7 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "chai": "^4.1.0",
-    "ember-cli": "~3.0.0-beta.2",
+    "ember-cli": "~3.0.0",
     "ember-cli-app-version": "^3.0.0",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-htmlbars": "^2.0.1",
@@ -62,7 +62,7 @@
     "ember-cli-babel": "^6.7.1",
     "lodash": "^4.13.1",
     "rsvp": "~4.8.0",
-    "surge": "~0.19.0"
+    "surge": "~0.20.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"

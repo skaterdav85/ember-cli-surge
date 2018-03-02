@@ -1,7 +1,7 @@
 'use strict';
 
 const expect         = require('chai').expect;
-const Promise        = require('ember-cli/lib/ext/promise');
+const Promise        = require('rsvp');
 const Task           = require('ember-cli/lib/models/task');
 const helperStub     = require('../../helpers/stub');
 const commandOptions = require('../../factories/command-options');
